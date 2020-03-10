@@ -12,7 +12,7 @@ class calc{
         for(String g: exp.split(" ")){
             if(g.matches("^\\d*.\\d+$"))
                 floater.add(g);
-            else if (g.matches("^\\d+"))
+            else if (g.matches("^\\d+$"))
                 inteiro.add(g);
             else if(g.matches("^[+|-|*|/|(|)]$"))
                 sinal.add(g);
