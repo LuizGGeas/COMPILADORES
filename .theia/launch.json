@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - calc",
+            "request": "launch",
+            "mainClass": "calc",
+            "projectName": "COMPILADORES_fc50318f"
+        }
+    ]
+}
